@@ -1,0 +1,6 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Getopt-Std-WithCheck.t
+lib/Getopt/Std/WithCheck.pm

@@ -25,7 +25,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.01';
+our $VERSION = '0.03';
 
 ##############################################################################
 ## Some modules required #####################################################
@@ -185,7 +185,6 @@ sub usage
 
 1;
 __END__
-# Below is stub documentation for your module. You'd better edit it!
 
 =head1 NAME
 
@@ -354,7 +353,7 @@ Daniel Podolsky, E<lt>tpaba@cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2006 by Daniel Podolsky, E<lt>tpaba@cpan.orgE<gt>
+Copyright (C) 2007 by Daniel Podolsky, E<lt>tpaba@cpan.orgE<gt>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself, either Perl version 5.8.4 or,

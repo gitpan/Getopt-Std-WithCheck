@@ -4,3 +4,4 @@ MANIFEST
 README
 t/Getopt-Std-WithCheck.t
 lib/Getopt/Std/WithCheck.pm
+META.yml                                 Module meta-data (added by MakeMaker)

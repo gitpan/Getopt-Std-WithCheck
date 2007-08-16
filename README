@@ -1,4 +1,4 @@
-Getopt-Std-WithCheck version 0.03
+Getopt-Std-WithCheck version 0.04
 =================================
 
 Getopt::Std::WithCheck - Perl extension for process command line arguments with custom check on them

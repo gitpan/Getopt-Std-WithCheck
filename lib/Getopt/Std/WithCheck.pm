@@ -25,7 +25,7 @@ our @EXPORT = qw(
 	
 );
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 ##############################################################################
 ## Some modules required #####################################################
@@ -194,15 +194,15 @@ Getopt::Std::WithCheck - Perl extension for process command line arguments with 
 
   use Getopt::Std::WithCheck;
 
-  my %opts = {'d' => {'argument'    => 0,
+  my %opts = ('d' => {'argument'    => 0,
                       'default'     => 0,
                       'description' => "Print debug info",
                      },
-             };
+             );
 
-  my %CFG = Getopt::Std::WithCheck::getOpts('programName', "Example of Getopt::Std::WithCheck usage\n\n", %opts);
+  my %CFG = %{Getopt::Std::WithCheck::getOpts('programName', "Example of Getopt::Std::WithCheck usage\n\n", \%opts)};
 
-  if (%CFG{'d'})
+  if ($CFG{'d'})
   	{
   	print STDERR Getopt::Std::WithCheck::usage();
   	};

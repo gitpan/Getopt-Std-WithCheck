@@ -1,5 +1,8 @@
 Revision history for Perl extension Getopt::Std::WithCheck.
 
+0.04  Fri Aug 15 09:45:00 2007
+	- doc fix: incorrect synopsis. Thanks to Daniel McBrearty.
+
 0.03  Fri Aug 10 15:20:00 2007
 	- bugfix: The distribution contains a blib/ directory and is therefore not being indexed.
 	- README fixed
